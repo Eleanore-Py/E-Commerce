@@ -1,0 +1,122 @@
+@font-face {
+  font-family: 'Evogria';
+  src: local('Evogria');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Souliyo Unicode';
+  src: local('Souliyo Unicode');
+  font-weight: 400;
+  font-style: normal;
+}
+
+.welcome-container {
+  width: 100%;
+  height: 100vh; /* Gunakan vh agar mengikuti tinggi layar */
+  position: relative; /* Ganti center menjadi relative agar posisi absolute bisa bekerja */
+  border: 1px solid #FFF;
+  background: transparent;
+  overflow: hidden; /* Hindari overflow jika ukuran terlalu besar */
+}
+
+.brand-title {
+  position: absolute;
+  left: 5%; /* Ganti dari px ke % */
+  top: 10%; /* Ganti dari px ke % */
+  width: 60%; /* Ganti dari px ke % */
+  height: auto; /* Biarkan tinggi menyesuaikan font */
+  color: #FFF;
+  font-family: Evogria, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 10vw; /* Gunakan vw agar ukuran font menyesuaikan lebar layar */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.1em; /* Gunakan em untuk proporsional */
+  text-align: left; /* Tambahkan agar teks tidak overflow */
+}
+
+.brand-tagline {
+  position: absolute;
+  left: 40%; /* Ganti dari px ke % */
+  top: 22%; /* Ganti dari px ke % */
+  width: 20%; /* Ganti dari px ke % */
+  height: auto;
+  color: #FFF;
+  font-family: 'Souliyo Unicode', -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.8vw; /* Gunakan vw agar ukuran font menyesuaikan lebar layar */
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+.start-button {
+  position: absolute;
+  left: 7%; /* Ganti dari px ke % */
+  top: 75%; /* Ganti dari px ke % */
+  width: 65%; /* Ganti dari px ke % */
+  max-width: 278px; /* Tambahkan max-width agar tidak terlalu besar di layar besar */
+  height: 6vh; /* Gunakan vh agar tinggi proporsional */
+  min-height: 40px; /* Minimum tinggi agar tetap bisa diklik di layar kecil */
+  border-radius: 5%; /* Gunakan % agar radius tetap proporsional */
+  background: #FFF;
+  box-shadow: 0 0.8vh 0.8vh 0 rgba(0, 0, 0, 0.25); /* Gunakan vh untuk bayangan */
+  border: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-text {
+  color: #000;
+  font-family: Evogria, -apple-system, Roboto, Helvetica, sans-serif;
+  font-size: 1.6vw;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.2em;
+}
+
+@media screen and (max-width: 768px) {
+  .brand-title {
+    font-size: 14vw;
+    left: 5%;
+    top: 12%;
+  }
+
+  .brand-tagline {
+    font-size: 2.5vw;
+    left: 35%;
+    top: 25%;
+  }
+
+  .start-button {
+    width: 80%;
+    left: 10%;
+    top: 80%;
+    height: 7vh;
+  }
+
+  .button-text {
+    font-size: 2.5vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .brand-title {
+    font-size: 8vw;
+    left: 7%;
+    top: 10%;
+  }
+
+  .brand-tagline {
+    font-size: 1.2vw;
+  }
+
+  .start-button {
+    width: 40%;
+    max-width: 300px;
+    left: 30%;
+    top: 80%;
+  }
+}

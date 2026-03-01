@@ -1,0 +1,27 @@
+{
+  "expo": {
+    "name": "Veston",
+    "slug": "veston-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "plugins": [
+      "expo-font",
+      "expo-sqlite"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "a4c173ba-1597-44e7-912e-e8e27855c006"
+      }
+    },
+    "android": {
+      "package": "com.dhav.vestonapp"
+    }
+  }
+}
