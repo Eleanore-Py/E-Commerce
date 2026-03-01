@@ -1,7 +1,8 @@
 # 🛒 VESTON - E-Commerce Mobile App
 
 <p align="center">
-  <img src="ornamenBGVideo.png" width="100%" alt="Veston Banner" />
+  <img src="assets/ornamenBGVideo.png" width="100%" alt="Veston Banner" />
+  <img src="assets/Mockup2-removebg-preview.png" width="100%" alt="Veston Banner" />
 </p>
 
 **VESTON** adalah aplikasi e-commerce streetwear modern yang dibangun dengan stack **React Native (Expo)** dan **Node.js**. Aplikasi ini fokus pada pengalaman pengguna yang bersih (*minimalist UI*) dan performa yang optimal untuk kebutuhan belanja masa kini.
