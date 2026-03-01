@@ -16,7 +16,7 @@ Didesain dengan pendekatan minimalis untuk menonjolkan estetika produk.
 
 | Landing Page | Product Listing |
 | :---: | :---: |
-| <img src="assets/login.jpg" width="350" /> | <img src="assets/Mockup2.jpg" width="350" /> |
+| <img src="assets/login.jpg" width="350" /> | <img src="assets/Category.jpeg" width="350" /> |
 | *Clean & Bold Entry Point* | *Modern Grid System* |
 
 ---
