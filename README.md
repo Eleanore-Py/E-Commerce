@@ -54,7 +54,7 @@ Didesain dengan pendekatan minimalis untuk menonjolkan estetika produk.
 
 ### 1. Clone Repository
 ```bash
-git clone [https://github.com/Eleanore-Py/E-Commerce.git](https://github.com/Eleanore-Py/E-Commerce.git)
+git clone https://github.com/Eleanore-Py/E-Commerce.git
 cd E-Commerce
 ```
 
